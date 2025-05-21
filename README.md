@@ -7,6 +7,7 @@
 Using a FIFA 21 player dataset, I compared how VLOOKUP and XLOOKUP handle real-world inconsistencies — like names with extra spaces (e.g., " Lionel Messi" instead of "Lionel Messi").
 
 ✅ VLOOKUP failed — exact match required, and no easy way to trim the lookup array.
+
 ✅ XLOOKUP handled it cleanly, thanks to its support for nesting functions like TRIM()
 
 I also showed how XLOOKUP can return multiple values at once, which VLOOKUP simply can’t do.
